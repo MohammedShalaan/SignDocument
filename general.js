@@ -1,8 +1,14 @@
 
 
 function sign(pdfPath) {
-    var spwaner = require('child_process').spawn
 
-    var pythonSignPorcess = spwaner('python', pdfPath)
+    var url = 'http://localhost:5000/lol?pdfPath='
+    url = url.concat(pdfPath)
+
+    fetch(url)
+    
 
 }
+
+
+sign('lol')
