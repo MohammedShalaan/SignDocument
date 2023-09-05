@@ -1,0 +1,66 @@
+:root {
+    --linerBackground: linear-gradient(rgba(192, 19, 19, 0.5) 100%, rgba(0, 0, 0, 0.5)100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-main {
+    background: var(--linerBackground);
+}
+
+
+/* //======= first section home =====// */
+.EgyptionPartySection {
+    background: linear-gradient(rgba(192, 19, 19, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("/img/backParty.jpg");
+    background-size: cover;
+}
+
+
+/* //======= second section question =====// */
+
+h2 {
+    user-select: none;
+    cursor: pointer;
+}
+
+.SomeQustion p {
+    display: none;
+}
+
+/* //======= third section timer =====// */
+
+.Timer {
+    background: linear-gradient(rgba(192, 19, 19, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("/img/timeAll.jpg");
+    background-size: cover;
+}
+
+
+/* //======= four join us =====// */
+.leftContantSocial {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: row;
+    gap: 7px;
+    padding-block: 20px;
+}
+
+.leftContantSocial i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    transition: 0.4s all ease;
+}
+
+.leftContantSocial i:hover {
+    background-color: brown;
+    color: wheat;
+    cursor: pointer;
+}
